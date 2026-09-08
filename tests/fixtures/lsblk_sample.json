@@ -1,0 +1,94 @@
+{
+  "blockdevices": [
+    {
+      "name": "sda",
+      "kname": "sda",
+      "type": "disk",
+      "size": "500107862016",
+      "model": "Samsung SSD 850 EVO",
+      "vendor": "ATA",
+      "serial": "S3ZBNX0J123456",
+      "fstype": null,
+      "mountpoint": null,
+      "rota": "0",
+      "tran": "sata",
+      "rm": "0",
+      "pttype": "gpt",
+      "children": [
+        {
+          "name": "sda1",
+          "kname": "sda1",
+          "type": "part",
+          "size": "524288000",
+          "model": null,
+          "vendor": null,
+          "serial": null,
+          "fstype": "vfat",
+          "mountpoint": "/boot/efi",
+          "rota": null,
+          "tran": null,
+          "rm": null
+        },
+        {
+          "name": "sda2",
+          "kname": "sda2",
+          "type": "part",
+          "size": "499537182720",
+          "model": null,
+          "vendor": null,
+          "serial": null,
+          "fstype": "ext4",
+          "mountpoint": "/",
+          "rota": null,
+          "tran": null,
+          "rm": null
+        }
+      ]
+    },
+    {
+      "name": "nvme0n1",
+      "kname": "nvme0n1",
+      "type": "disk",
+      "size": "1000204886016",
+      "model": "Samsung SSD 970 EVO Plus 1TB",
+      "vendor": "Samsung",
+      "serial": "S5P7NX0R1234567",
+      "fstype": null,
+      "mountpoint": null,
+      "rota": "0",
+      "tran": "nvme",
+      "rm": "0",
+      "pttype": "gpt",
+      "children": [
+        {
+          "name": "nvme0n1p1",
+          "kname": "nvme0n1p1",
+          "type": "part",
+          "size": "1048576000",
+          "model": null,
+          "vendor": null,
+          "serial": null,
+          "fstype": "ext4",
+          "mountpoint": "/boot",
+          "rota": null,
+          "tran": null,
+          "rm": null
+        },
+        {
+          "name": "nvme0n1p2",
+          "kname": "nvme0n1p2",
+          "type": "part",
+          "size": "999153398661",
+          "model": null,
+          "vendor": null,
+          "serial": null,
+          "fstype": "ext4",
+          "mountpoint": "/",
+          "rota": null,
+          "tran": null,
+          "rm": null
+        }
+      ]
+    }
+  ]
+}

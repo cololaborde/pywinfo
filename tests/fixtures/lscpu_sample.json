@@ -1,0 +1,68 @@
+{
+  "lscpu": [
+    {
+      "field": "Architecture:",
+      "data": "x86_64"
+    },
+    {
+      "field": "Byte Order:",
+      "data": "Little Endian"
+    },
+    {
+      "field": "CPU(s):",
+      "data": 8
+    },
+    {
+      "field": "On-line CPU(s) list:",
+      "data": "0-7"
+    },
+    {
+      "field": "Vendor ID:",
+      "data": "GenuineIntel"
+    },
+    {
+      "field": "Model name:",
+      "data": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz"
+    },
+    {
+      "field": "Socket(s):",
+      "data": 1
+    },
+    {
+      "field": "Core(s) per socket:",
+      "data": 4
+    },
+    {
+      "field": "Thread(s) per core:",
+      "data": 2
+    },
+    {
+      "field": "CPU max MHz:",
+      "data": "4000.0000"
+    },
+    {
+      "field": "CPU min MHz:",
+      "data": "400.0000"
+    },
+    {
+      "field": "L1d cache:",
+      "data": "128 KiB"
+    },
+    {
+      "field": "L1i cache:",
+      "data": "128 KiB"
+    },
+    {
+      "field": "L2 cache:",
+      "data": "1 MiB"
+    },
+    {
+      "field": "L3 cache:",
+      "data": "8 MiB"
+    },
+    {
+      "field": "Virtualization:",
+      "data": "VT-x"
+    }
+  ]
+}

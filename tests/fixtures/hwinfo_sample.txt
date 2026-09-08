@@ -1,0 +1,117 @@
+01: None 00.0: 10105 BIOS
+  [Created at bios.448]
+  Unique ID: AAAA.QxRHP8-KRdwf8
+  Hardware Class: bios
+  Model: "BIOS"
+  Vendor: "LENOVO"
+  Version: R0AET42W (1.19 )
+  Release Date: 03/02/2021
+  SMBIOS Version: 3.2
+
+02: PCI 00.0: 0300 VGA compatible controller (VGA)
+  [Created at pci.447]
+  Unique ID: BBBB.gLdD+7Bk1zF6
+  SysFS ID: /devices/pci0000:00/0000:00:02.0
+  SysFS BusID: 0000:00:02.0
+  Hardware Class: graphics card
+  Model: "Intel HD Graphics 630"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x5912 "HD Graphics 630"
+  SubVendor: pci 0x17aa "Lenovo"
+  Revision: 0x04
+  Driver: "i915"
+  Driver Modules: "i915"
+
+03: PCI 00.0: 0208 Main Processor
+  [Created at pci.448]
+  Unique ID: CCCC.7HzQ1alUJ7T9
+  SysFS ID: /devices/pci0000:00/0000:00:00.0
+  Hardware Class: processor
+  Model: "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz"
+  Vendor: "Intel Corporation"
+  Clock: 2000 MHz
+
+04: None 00.0: 10002 LCD Monitor
+  [Created at monitor.442]
+  Unique ID: DDDD.9Q5F8t2Bp1cJ
+  Hardware Class: monitor
+  Device: "CMN N156HCE-EN1"
+  Model: "CMN N156HCE-EN1"
+  Vendor: CMN
+  Serial: "0001"
+  Resolution: 1920x1080
+
+05: USB 00.0: 10600 Disk
+  [Created at usb.122]
+  Unique ID: EEEE.M9tNS8nBq6w9
+  SysFS ID: /devices/pci0000:00/0000:00:14.0/usb3/3-1/3-1:1.0
+  Hardware Class: usb
+  Model: "USB Flash Disk"
+  Vendor: 0x0930 "Toshiba"
+  Device: 0x6545
+  Driver: "usb-storage"
+
+06: None 00.0: 10701 Ethernet (enp3s0)
+  [Created at net.1261]
+  Unique ID: FFFF.QxRHP8-KRdwf8
+  SysFS ID: /devices/pci0000:00/0000:00:1f.6/net/enp3s0
+  SysFS BusID: 0000:00:1f.6
+  Hardware Class: network
+  Model: "Realtek Ethernet Connection (4) I219-V"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x15d8 "Ethernet Connection (4) I219-V"
+  SubVendor: pci 0x17aa "Lenovo"
+  Revision: 0x03
+  Driver: "e1000e"
+  Driver Modules: "e1000e"
+  Interface: eth0
+  Link detected: no
+
+07: None 00.0: 10702 WLAN (wlo1)
+  [Created at net.1262]
+  Unique ID: GGGG.YQ5j7i6c4dF3
+  SysFS ID: /devices/pci0000:00/0000:00:1c.0/0000:02:00.0/net/wlo1
+  SysFS BusID: 0000:02:00.0
+  Hardware Class: network
+  Model: "Intel Wireless 8265 / 8275"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x24fd "Wireless 8265 / 8275 (rev 78)"
+  SubVendor: pci 0x8086 "Intel Corporation"
+  Revision: 0x78
+  Driver: "iwlwifi"
+  Driver Modules: "iwlwifi"
+  Interface: wlan0
+
+08: PCI 00.0: 0401 Multimedia audio controller
+  [Created at pci.447]
+  Unique ID: HHHH.Ep0U5AMZRFV4
+  SysFS ID: /devices/pci0000:00/0000:00:1f.3
+  SysFS BusID: 0000:00:1f.3
+  Hardware Class: sound
+  Model: "Intel Sunrise Point-LP HD Audio"
+  Vendor: pci 0x8086 "Intel Corporation"
+  Device: pci 0x9d71 "Sunrise Point-LP HD Audio"
+  SubVendor: pci 0x17aa "Lenovo"
+  Revision: 0x21
+  Driver: "snd_hda_intel"
+  Driver Modules: "snd_hda_intel"
+
+09: None 00.0: 0280 Bluetooth controller
+  [Created at bluetooth.473]
+  Unique ID: IIII.kTDc9Z7s9dC6
+  Hardware Class: bluetooth
+  Model: "Intel Bluetooth AX201"
+  Vendor: 0x8087 "Intel Corp."
+  Device: 0x0026
+  Driver: "btusb"
+  Driver Modules: "btusb"
+
+10: USB 00.0: 1080B Webcam
+  [Created at usb.122]
+  Unique ID: JJJJ.QxRHP8-KRdwf8
+  SysFS ID: /devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0
+  Hardware Class: camera
+  Model: "Integrated Camera"
+  Vendor: 0x04f2 "Bison Electronics Inc."
+  Device: 0xb652
+  Driver: "uvcvideo"
