@@ -1,9 +1,9 @@
 import json
 import re
 
-from ..system import command_exists, run_command
-from ..utils import safe_int, safe_float, first_value
-from ..hwinfo_parser import get_blocks
+from src.system import command_exists, run_command
+from src.utils import safe_int, safe_float, first_value
+from src.hwinfo_parser import get_blocks
 
 
 def get_lscpu():

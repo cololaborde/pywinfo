@@ -1,5 +1,5 @@
-from ..utils import first_value
-from ..hwinfo_parser import get_blocks
+from src.utils import first_value
+from src.hwinfo_parser import get_blocks
 
 
 def parse_system(blocks):

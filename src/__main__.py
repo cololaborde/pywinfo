@@ -2,9 +2,9 @@
 
 import webbrowser
 
-from .data import build_data
-from .system import get_hwinfo
-from .report.generator import generate_html
+from src.data import build_data
+from src.system import get_hwinfo
+from src.report.generator import generate_html
 
 
 def main():

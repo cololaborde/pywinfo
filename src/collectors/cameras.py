@@ -1,5 +1,5 @@
-from ..utils import first_value
-from ..hwinfo_parser import get_blocks, block_vendor, block_driver
+from src.utils import first_value
+from src.hwinfo_parser import get_blocks, block_vendor, block_driver
 
 
 def parse_cameras(blocks, short):

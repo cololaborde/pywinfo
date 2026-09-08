@@ -1,8 +1,8 @@
 import json
 
-from ..system import command_exists, run_command
-from ..utils import safe_int, normalize_bool, clean_value, format_bytes
-from ..hwinfo_parser import get_blocks, block_vendor, first_value
+from src.system import command_exists, run_command
+from src.utils import safe_int, normalize_bool, clean_value, format_bytes
+from src.hwinfo_parser import get_blocks, block_vendor, first_value
 
 # Importante: el tamaño (y en general la info "real" de bloque)
 # NO se saca de hwinfo. hwinfo describe el hardware detectado por

@@ -1,7 +1,7 @@
 import re
 
-from ..system import command_exists, run_command
-from ..utils import normalize_key
+from src.system import command_exists, run_command
+from src.utils import normalize_key
 
 
 def clean_dmidecode_value(value):

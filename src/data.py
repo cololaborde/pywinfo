@@ -1,5 +1,5 @@
-from .hwinfo_parser import parse_hwinfo_blocks, parse_hwinfo_short
-from .collectors import (
+from src.hwinfo_parser import parse_hwinfo_blocks, parse_hwinfo_short
+from src.collectors import (
     cpu,
     memory,
     gpu,

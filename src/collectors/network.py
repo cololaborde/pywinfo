@@ -1,9 +1,9 @@
 import re
 import json
 
-from ..system import command_exists, run_command
-from ..utils import clean_value, first_value
-from ..hwinfo_parser import get_blocks, block_vendor, block_driver
+from src.system import command_exists, run_command
+from src.utils import clean_value, first_value
+from src.hwinfo_parser import get_blocks, block_vendor, block_driver
 
 
 def get_ip_addr_json():
