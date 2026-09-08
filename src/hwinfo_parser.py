@@ -1,6 +1,6 @@
 import re
 import json
-from utils import normalize_key, parse_value, first_value
+from .utils import normalize_key, parse_value, first_value
 
 BLOCK_START_RE = re.compile(
     r"^\s*(\d{2}):\s+(.+?)\s*$"
