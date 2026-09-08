@@ -127,22 +127,3 @@ def first_value(data, *keys):
                 return value
 
     return None
-
-
-def all_values(data, *keys):
-    result = []
-
-    for key in keys:
-        normalized = normalize_key(key)
-
-        value = data.get(normalized)
-
-        if value is None:
-            continue
-
-        if isinstance(value, list):
-            result.extend(value)
-        else:
-            result.append(value)
-
-    return result
